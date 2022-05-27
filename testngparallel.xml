@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="classes" name="Suite">
+	<test thread-count="3" parallel="classes" name="Test">
+		<classes>
+			<class name="com.vitger.productsTest.CreateProductTest" />
+			<class name="com.vtiger.organiztiontTest.CreateOrganizationByPassValueAsIndustry" />
+			<class name="com.vtiger.compaigsTest.CreateNewCampaigsTest" />
+		</classes>
+		</test> <!-- Test -->
+		
+		
+	<test thread-count="3" parallel="classes" name="Test1">
+		<classes>
+			<class name="com.vitger.productsTest.CreateProductTest" />
+			<class
+				name="com.vtiger.organiztiontTest.CreateOrganizationByPassValueAsIndustry" />
+			<class name="com.vtiger.compaigsTest.CreateNewCampaigsTest" />
+			<class name="com.vtiger.organiztiontTest.CreateOrganiztionTest" />
+			<class name="com.vtiger.compaigsTest.CreateCompaigsByCreateProductTest" />
+			<class name="com.vtiger.contantsTest.CreateContactsWithOrganizationsTest" />
+			<class name="com.vtiger.documentsTest.CreateDocumentTest" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->

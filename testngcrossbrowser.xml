@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Suite">
+  <test thread-count="3" parallel="tests" name="chrome">
+  <parameter name ="browser" value ="chrome"/>
+    <classes>
+      <class name="com.vitger.productsTest.CreateProductTest"/>
+      <class name="com.vtiger.practice.TestNgPractice2Test"/>
+      <class name="com.vtiger.compaigsTest.CreateNewCampaigsTest"/>
+      <class name="com.vtiger.module.Tc_08_ContactWithLeadNameTest"/>
+      <class name="com.vtiger.module.Tc_09_CreatingNewContactTest"/>
+      <class name="com.vtiger.organiztiontTest.CreateOrganiztionTest"/>
+      <class name="com.vtiger.compaigsTest.CreateCompaigsByCreateProductTest"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  
+   <test thread-count="3" parallel="tests" name="firefox">
+   <parameter name ="browser" value ="firefox"/>
+    <classes>
+      <class name="com.vitger.productsTest.CreateProductTest"/>
+      <class name="com.vtiger.practice.TestNgPractice2Test"/>
+      <class name="com.vtiger.compaigsTest.CreateNewCampaigsTest"/>
+      <class name="com.vtiger.module.Tc_08_ContactWithLeadNameTest"/>
+      <class name="com.vtiger.module.Tc_09_CreatingNewContactTest"/>
+      <class name="com.vtiger.organiztiontTest.CreateOrganiztionTest"/>
+      <class name="com.vtiger.compaigsTest.CreateCompaigsByCreateProductTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

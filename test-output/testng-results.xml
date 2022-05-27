@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-05-26T18:32:42 IST" name="Suite" finished-at="2022-05-26T18:33:00 IST" duration-ms="17967">
+    <groups>
+      <group name="sanity">
+        <method signature="CreateNewCampaigsTest.createnewcampaigstest()[pri:0, instance:com.vtiger.compaigsTest.CreateNewCampaigsTest@15dd5ac2]" name="createnewcampaigstest" class="com.vtiger.compaigsTest.CreateNewCampaigsTest"/>
+      </group> <!-- sanity -->
+    </groups>
+    <test started-at="2022-05-26T18:32:42 IST" name="Test" finished-at="2022-05-26T18:33:00 IST" duration-ms="17967">
+      <class name="com.vtiger.compaigsTest.CreateNewCampaigsTest">
+        <test-method is-config="true" signature="beforesuite1Test()[pri:0, instance:com.vtiger.compaigsTest.CreateNewCampaigsTest@15dd5ac2]" started-at="2022-05-26T18:32:42 IST" name="beforesuite1Test" finished-at="2022-05-26T18:32:42 IST" duration-ms="28" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforesuite1Test -->
+        <test-method is-config="true" signature="beforeclass1Test()[pri:0, instance:com.vtiger.compaigsTest.CreateNewCampaigsTest@15dd5ac2]" started-at="2022-05-26T18:32:43 IST" name="beforeclass1Test" finished-at="2022-05-26T18:32:50 IST" duration-ms="7304" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeclass1Test -->
+        <test-method is-config="true" signature="beforemethod1Test()[pri:0, instance:com.vtiger.compaigsTest.CreateNewCampaigsTest@15dd5ac2]" started-at="2022-05-26T18:32:50 IST" name="beforemethod1Test" finished-at="2022-05-26T18:32:52 IST" duration-ms="2057" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemethod1Test -->
+        <test-method signature="createnewcampaigstest()[pri:0, instance:com.vtiger.compaigsTest.CreateNewCampaigsTest@15dd5ac2]" started-at="2022-05-26T18:32:52 IST" name="createnewcampaigstest" finished-at="2022-05-26T18:32:59 IST" duration-ms="6548" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createnewcampaigstest -->
+        <test-method is-config="true" signature="aftermethod1Test()[pri:0, instance:com.vtiger.compaigsTest.CreateNewCampaigsTest@15dd5ac2]" started-at="2022-05-26T18:32:59 IST" name="aftermethod1Test" finished-at="2022-05-26T18:33:00 IST" duration-ms="1055" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftermethod1Test -->
+        <test-method is-config="true" signature="afterClass1test()[pri:0, instance:com.vtiger.compaigsTest.CreateNewCampaigsTest@15dd5ac2]" started-at="2022-05-26T18:33:00 IST" name="afterClass1test" finished-at="2022-05-26T18:33:00 IST" duration-ms="225" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass1test -->
+        <test-method is-config="true" signature="aftersuite1test()[pri:0, instance:com.vtiger.compaigsTest.CreateNewCampaigsTest@15dd5ac2]" started-at="2022-05-26T18:33:00 IST" name="aftersuite1test" finished-at="2022-05-26T18:33:00 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftersuite1test -->
+      </class> <!-- com.vtiger.compaigsTest.CreateNewCampaigsTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
