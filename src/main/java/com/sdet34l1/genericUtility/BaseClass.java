@@ -35,6 +35,7 @@ public class BaseClass {
 	/**
 	 * In this annotation we used to open the property file and excel file.
 	 * @throws IOException
+	 * This is base class
 	 */
 
 	@BeforeSuite
